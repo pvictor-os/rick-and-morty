@@ -3,13 +3,14 @@
 [![N|Solid](https://i.ibb.co/WWqYTYz/rick-and-morty-webpage.jpg)](https://i.ibb.co/WWqYTYz/rick-and-morty-webpage.jpg)
 
 ### Tecnologias usadas
+
 - React JS
 - Styled-components
 - Javascript
 - HTML
 - CSS
 
-## Features
+### Features
 
 - Ordenar personagens pelo nome
 - Buscar personagens pelo nome
@@ -17,3 +18,5 @@
 - Exibir detalhes de personagem em nova tela
 - Remover card de personagem
 - Resetar aos personagem originais
+
+### Link: https://shiny-grandmother.surge.sh/
