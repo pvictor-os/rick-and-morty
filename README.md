@@ -17,6 +17,6 @@
 - Adicionar novo card de personagem
 - Exibir detalhes de personagem em nova tela
 - Remover card de personagem
-- Resetar aos personagem originais
+- Resetar aos personagens originais
 
 ### Link: https://shiny-grandmother.surge.sh/
