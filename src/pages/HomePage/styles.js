@@ -54,6 +54,9 @@ export const HomePageContainer = styled.div`
       max-width: 250px;
       min-width: 100px;
     }
+    h2 {
+      font-size: 21px;
+    }
 
     button {
       margin-top: 10px;
@@ -65,6 +68,9 @@ export const HomePageContainer = styled.div`
       cursor: pointer;
       font-family: "Staatliches", cursive;
       font-size: 15px;
+      :hover {
+        background-color: #f5c316;
+      }
     }
   }
 

@@ -8,8 +8,8 @@ const DetailsPage = (props) => {
   );
 
   return (
-    <>
-      <Header />
+    <div>
+      <Header changePage={props.changePage} />
       <Container>
         <div>
           <h2>{character.name}</h2>
@@ -21,7 +21,7 @@ const DetailsPage = (props) => {
         </div>
       </Container>
       <Button onClick={() => props.changePage("homepage")}>Voltar </Button>{" "}
-    </>
+    </div>
   );
 };
 

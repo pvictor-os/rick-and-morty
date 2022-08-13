@@ -1,9 +1,11 @@
 import { HeaderContainer } from "./styles";
 
-export const Header = () => {
+export const Header = (props) => {
   return (
     <HeaderContainer>
-      <h1>Rick and Morty</h1>
+      <h1 onClick={() => props.changePage("homepage")}>
+        <span>Rick and Morty</span>
+      </h1>
     </HeaderContainer>
   );
 };

@@ -43,6 +43,9 @@ export const GlobalStyle = createGlobalStyle`
     padding: 10px 20px;
     display: flex;
     margin: 0 auto;
-    margin-bottom: 20px}
+    margin-bottom: 20px;
+  :hover{
+    background-color:#610e1c
+  }}
 
 `;

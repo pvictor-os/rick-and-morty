@@ -1,5 +1,3 @@
-import { Header } from "./components/Header/Header";
-import Card from "./components/Card/Card";
 import { useEffect, useState } from "react";
 import HomePage from "./pages/HomePage/HomePage";
 import DetailsPage from "./pages/DetailsPage/DetailsPage";
@@ -58,9 +56,11 @@ function App() {
     newCharacter.image === ""
       ? (newCharacter.image = "https://i.ibb.co/T1vb6Vk/inter.jpg")
       : (newCharacter.image = newCharacter.image);
+
     newCharacter.name === ""
       ? (newCharacter.name = "Unknown")
       : (newCharacter.name = newCharacter.name);
+
     newCharacter.species === ""
       ? (newCharacter.species = "Unknown")
       : (newCharacter.species = newCharacter.species);

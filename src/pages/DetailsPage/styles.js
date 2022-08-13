@@ -11,7 +11,13 @@ export const Container = styled.div`
   margin: auto;
   margin-block: 60px;
   padding-block: 20px;
-  //background-color: white;
+
+  transition: all 0.2s ease-in-out;
+  :hover {
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+  }
+
   img {
     max-width: 300px;
     margin: auto;
@@ -20,10 +26,20 @@ export const Container = styled.div`
 
   h2 {
     color: #011640;
+    transition: all 0.2s ease-in-out;
+    :hover {
+      transform: scale(1.07);
+      transition: all 0.3s ease-in-out;
+    }
   }
   p {
     color: #011640;
-    font-weight: bold;
+    font-weight: 900;
+    transition: all 0.1s ease-in-out;
+    :hover {
+      transform: scale(1.03);
+      transition: all 0.1s ease-in-out;
+    }
   }
 `;
 
@@ -33,10 +49,12 @@ export const Button = styled.button`
   margin-block-end: 20px;
   padding-inline: 20px;
   padding-block: 10px;
-
   background-color: var(--yellow);
   border: none;
   cursor: pointer;
   font-family: "Staatliches", cursive;
   font-size: 20px;
+  :hover {
+    background-color: #f5c316;
+  }
 `;

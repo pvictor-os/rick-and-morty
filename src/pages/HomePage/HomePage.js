@@ -76,7 +76,7 @@ const HomePage = (props) => {
           <div>
             <form className="form-criar-personagem">
               <div className="criar-personagem"></div>
-              <h2>Criar personagem</h2>
+              <h2>Adicionar personagem</h2>
               <label htmlFor="imagem">Imagem:</label>
               <input
                 onChange={props.handlers.handleInputImage}
