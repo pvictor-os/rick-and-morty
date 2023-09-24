@@ -1,6 +1,6 @@
 # Rick and Morty Web Page
 
-[![N|Solid](https://i.ibb.co/WWqYTYz/rick-and-morty-webpage.jpg)](https://i.ibb.co/WWqYTYz/rick-and-morty-webpage.jpg)
+[![N|Solid](https://i.ibb.co/rkdvwj9/rick-and-morty-webpage.jpg)]([https://i.ibb.co/WWqYTYz/rick-and-morty-webpage.jpg](https://i.ibb.co/rkdvwj9/rick-and-morty-webpage.jpg))
 
 ### Tecnologias usadas
 
